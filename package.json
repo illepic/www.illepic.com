@@ -1,0 +1,28 @@
+{
+  "name": "www.illepic.com",
+  "version": "1.0.0",
+  "description": "Blog n' stuff",
+  "main": "index.js",
+  "source": [
+    "./src/index.html",
+    "./src/.well-known/masochist/index.html"
+  ],
+  "scripts": {
+    "start": "parcel",
+    "prebuild": "rm -rf ./dist",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illepic/www.illepic.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illepic/www.illepic.com/issues"
+  },
+  "homepage": "https://github.com/illepic/www.illepic.com#readme",
+  "devDependencies": {
+    "parcel": "^2.2.0"
+  }
+}
