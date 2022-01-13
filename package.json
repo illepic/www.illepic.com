@@ -2,7 +2,6 @@
   "name": "www.illepic.com",
   "version": "1.0.0",
   "description": "Blog n' stuff",
-  "main": "index.js",
   "source": [
     "./src/index.html",
     "./src/.well-known/masochist/index.html"
